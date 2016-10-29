@@ -1,6 +1,5 @@
-var app = angular.module("app");
-
-app.controller("homeController", function() {
+/* global angular */
+angular.module("app").controller("homeController", function($scope, $state) {
 
 
 });
