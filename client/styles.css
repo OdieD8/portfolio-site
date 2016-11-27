@@ -5,11 +5,103 @@ html, body {
 	background-image: url("./images/overlay.png"), url("./images/bluebinarybackground.jpg");
 }
 
+.menu {
+	width: 90%;
+	margin: 10px auto;
+	padding: 25px 0px;
+	text-align: center;
+}
+
+.menu-button {
+	padding: 10px 40px;
+	margin: 1% 2.5%;
+	background-color: cornflowerblue;
+}
+
+.dropdown-div {
+	margin: 1% 2.5%;
+}
+
+.dropdown-button {
+	padding: 10px 40px;
+	background-color: cornflowerblue;
+}
+
+.dropdown-menu {
+	background-color: cornflowerblue;
+}
+
+.dropdown-menu li a{
+	color: white;
+	background-color: cornflowerblue;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 .container {
-	width: 99%;
-	margin: 0 auto;
-	padding: 10px;
-	color: lightskyblue;
+	width: 98%;
+	margin: 10px;
+	padding: 2%;
+	color: cornflowerblue;
 	font-family: Arial, Helvetica, sans-serif;
-	border: 2px solid lightskyblue;
+	border: 2px solid cornflowerblue;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	margin: 100px 0px 30px 0;
+}
+
+.css-typing
+{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin: 50px 0px;
+	padding: 0px;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+@media (max-width: 1235px) {
+	.css-typing {
+		font-size: 20px;
+		margin: 30px 0px;
+		-webkit-animation: type 3s steps(30, end);
+		animation: type 3s steps(30, end);
+	}
+}
+
+@media (max-width: 870px) {
+	h1 {
+		font-size: 75px;
+	}
+}
+
+@media (max-width: 640px) {
+	h1 {
+		font-size: 50px;
+	}
+	
+	.css-typing {
+		font-size: 15px;
+		margin: 15px 0px;
+		-webkit-animation: type 3s steps(20, end);
+		animation: type 3s steps(20, end);
+	}
 }
