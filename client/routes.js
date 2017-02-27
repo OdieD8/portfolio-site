@@ -31,5 +31,10 @@ angular.module("app", ["ui.router"]).config(function($urlRouterProvider, $stateP
 			controller: "portfolioController"
 		})
 	
+		.state("about", {
+			url: "/about",
+			templateUrl: "features/about/about.template.html"
+		})
+	
     $urlRouterProvider.otherwise("/home");
 });

@@ -130,6 +130,20 @@ a:hover {
 	text-decoration: none;
 }
 
+#about-img {
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 5px 10px;
+}
+
+#about-p {
+	text-align: left;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .footer
 {
 	color: #fff;
@@ -245,5 +259,15 @@ a:hover {
 		.footer
 	{
 		padding: 0em 1.25em;
+	}
+	
+	#about-img {
+		float: none;
+		width: 200px;
+		height: 200px;
+	}
+	
+	#about-p {
+		font-size: 15px;
 	}
 }
