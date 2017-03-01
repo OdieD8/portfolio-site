@@ -115,6 +115,7 @@ h4 {
 	font-size: 25px;
 	padding-left: 2%;
 	padding-top: 1%;
+	vertical-align: middle;
 }
 
 a {
@@ -135,6 +136,12 @@ a:hover {
 	width: 300px;
 	height: 300px;
 	margin: 5px 10px;
+}
+
+#contact-img {
+	width: 30px;
+	height: 30px;
+	margin: 0;
 }
 
 #about-p {
@@ -177,8 +184,8 @@ a:hover {
 	margin: 50px 0px;
 	padding: 0px;
     width: 100%;
-    white-space:nowrap;
-    overflow:hidden;
+    white-space: nowrap;
+    overflow: hidden;
     -webkit-animation: type 5s steps(40, end);
     animation: type 5s steps(40, end);
 }
