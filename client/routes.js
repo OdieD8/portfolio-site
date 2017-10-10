@@ -41,6 +41,6 @@ angular.module("app", ["ui.router"]).config(function($urlRouterProvider, $stateP
 			templateUrl: "features/contact/contact.template.html"
 		})
 	
-		$urlRouterProvider.otherwise("/home");
 		$locationProvider.html5Mode(true);
+		$urlRouterProvider.otherwise("/home");
 });
