@@ -1,4 +1,4 @@
-angular.module("app", ["ui.router"]).config(function($urlRouterProvider, $stateProvider) {
+angular.module("app", ["ui.router"]).config(function($urlRouterProvider, $stateProvider, $locationProvider) {
     
     $stateProvider
         .state("home", {
@@ -41,5 +41,6 @@ angular.module("app", ["ui.router"]).config(function($urlRouterProvider, $stateP
 			templateUrl: "features/contact/contact.template.html"
 		})
 	
-    	$urlRouterProvider.otherwise("/home");
+		$urlRouterProvider.otherwise("/home");
+		$locationProvider.html5Mode(true);
 });
